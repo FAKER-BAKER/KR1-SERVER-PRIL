@@ -4,4 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Авторелоад действительно работает"}pip install "uvicorn[standard]
+    return {"message": "Авторелоад действительно работает"}
